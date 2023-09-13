@@ -71,15 +71,18 @@ if(temperature > 80 && rain){
   Create a for-loop that runs 10 times, and on each iteration logs the word 'hello'.
 */
 
-//CODE HERE
-
+for(i = 1; i<=10; i++){
+  console.log("hello")
+}
 ////////// PROBLEM 6 //////////
 
 /*
   Create a for-loop that runs 10 times, logging the numbers 1 through 10. Ex, on the first iteration it would log 1, on the second iteration it would log 2.
 */
 
-//CODE HERE
+for(i = 1; i<=10; i++){
+  console.log(i);
+}
 
 ////////// PROBLEM 7 //////////
 
@@ -87,8 +90,9 @@ if(temperature > 80 && rain){
   Create a for-loop that logs the numbers 0 through 10 backwards. Ex, on the first iteration it would log 10, on the second iteration it would log 9.
 */
 
-//CODE HERE
-
+for(i = 10; i>=0; i--){
+  console.log(i);
+}
 
 ////////// PROBLEM 8 //////////
 
@@ -99,7 +103,11 @@ let passingScore = 7;
   Create a while-loop that logs "Your score is not high enough" while the score variable above is below passingScore. In each iteration of the loop, increase the score by one. If your code is successful, you will see your logged statement 7 times.
 */
 
-//CODE HERE
+while(score < passingScore){
+  console.log("Your score is not high enough");
+  score = score + 1;
+}
+
 
 ////////// INTERMEDIATE PROBLEMS //////////
 
@@ -110,7 +118,16 @@ let passingScore = 7;
 
 */
 
-//CODE HERE
+let changeMyMind = true;
+if(changeMyMind = true){
+  console.log(changeMyMind);
+  changeMyMind = false;
+}else{
+  changeMyMind=false;
+  console.log(changeMyMind)
+}
+
+
 
 ////////// PROBLEM 10 //////////
 // Using the "not" operator (!), change the current value of changeMyMind to true (it should currently be set to false due to the if-else statement in Problem 9). After you change the value of changeMyMind, console.log it's new value (it should now read true).
